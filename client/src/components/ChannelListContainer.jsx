@@ -30,9 +30,7 @@ const CompanyHeader = () => (
 const ChannelListContainer = () => {
   return (
     <div>
-        <div>
-            <SideBar />
-        </div>
+        <SideBar />
         <div className='channel-list__list__wrapper'>
             <CompanyHeader />
         </div>
