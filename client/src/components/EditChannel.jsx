@@ -23,7 +23,7 @@ const ChannelNameInput = ({channelName = '', setChannelName}) => {
 
 const EditChannel = ({setIsEditing}) => {
   const {channel} = useChatContext()
-  var {channelName, setChannelName} = useState(channel?.data?.name)
+  const {channelName, setChannelName} = useState(channel?.data?.name)
   const [selectedUsers, setSelectedUsers] = useState([])
 
   const updateChannel = async (event) => {
